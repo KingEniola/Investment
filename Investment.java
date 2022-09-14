@@ -7,27 +7,27 @@ public class Investment {
 
 	private String investorName;
 	private double investment;
-	private static double interestRate=0.025;      //initialized static interest rate
+	private static double interestRate=0.025;      
 	
 	
-	public Investment()     //default constructor
+	public Investment()     
 	{
 		investorName="";
 		investment = 0;
 	}
 	
-	public Investment (String name, double ammount)    // overload constructor
+	public Investment (String name, double ammount)    
 	{
 		setInvestorName(name);
 		setInvestment(ammount);
 	}   
 	
-	public String getInvestorName() //getter method
+	public String getInvestorName() 
 	{
 		return investorName;
 	}
 	
-	public void setInvestorName(String name)    //setter method
+	public void setInvestorName(String name)    /
 	{
 		investorName = name;
 	}
