@@ -33,7 +33,7 @@ public class InvestmentClient {
 	     System.out.println("Investor 2: " + investorname);
 	     
 	     double ammount = person2.getInvestment();
-	     System.out.println("\t Investor 2 investment: " + icPattern.format(ammount));
+	     System.out.println("\t Investor 2 investment: " + icPattern.format(amount));
 
 	     double rate =Investment.getInterestRate();
 	     System.out.println("\t Investor 2 interest Rate: " + irPattern.format(rate));
