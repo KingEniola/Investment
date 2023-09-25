@@ -16,10 +16,10 @@ public class Investment {
 		investment = 0;
 	}
 	
-	public Investment (String name, double ammount)    
+	public Investment (String name, double amount)    
 	{
 		setInvestorName(name);
-		setInvestment(ammount);
+		setInvestment(amount);
 	}   
 	
 	public String getInvestorName() 
@@ -37,10 +37,10 @@ public class Investment {
 		return investment;
 	}
 	
-	public void setInvestment(double ammount) 
+	public void setInvestment(double amount) 
 	{
            if (ammount >= 0)
-        	   investment = ammount;
+        	   investment = amount;
            else
         	   investment = 0;
 	}
