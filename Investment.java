@@ -39,7 +39,7 @@ public class Investment {
 	
 	public void setInvestment(double amount) 
 	{
-           if (ammount >= 0)
+           if (amount >= 0)
         	   investment = amount;
            else
         	   investment = 0;
